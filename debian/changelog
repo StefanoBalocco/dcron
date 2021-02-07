@@ -1,4 +1,4 @@
-dcron (4.6-1~Balocco9+1) stretch; urgency=medium
+dcron (4.6.0-1~Balocco9+1) stretch; urgency=medium
 
   * Changed upstream
   * Support for system crontab
