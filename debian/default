@@ -1,5 +1,0 @@
-#
-# Parameters to be passed to crond
-#
-#PIDFILE=/run/dcron.pid
-EXTRA_OPTS="-S -l info"
