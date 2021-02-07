@@ -1,3 +1,9 @@
+dcron (4.6.0-1~Balocco10+1) buster; urgency=medium
+
+  * Ported to buster
+
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Sun, 07 Feb 2021 02:37:55 +0100
+
 dcron (4.6.0-1~Balocco9+1) stretch; urgency=medium
 
   * Changed upstream
