@@ -1,0 +1,15 @@
+[Unit]
+Description=Cron Daemon
+After=syslog.target
+
+[Service]
+Type=forking
+EnvironmentFile=/etc/default/dcron
+Environment=PIDFILE=/run/dcron.pid
+ExecStart=/usr/sbin/crond -p $PIDFILE $EXTRA_OPTS
+PIDFile=$PIDFILE
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
