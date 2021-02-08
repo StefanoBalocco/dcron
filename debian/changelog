@@ -1,3 +1,9 @@
+dcron (4.6.0-1~Balocco10+3) buster; urgency=medium
+
+  * Fixed service file
+
+ -- Stefano Balocco <Stefano.Balocco@gmail.com>  Mon, 08 Feb 2021 01:45:03 +0100
+
 dcron (4.6.0-1~Balocco10+2) buster; urgency=medium
 
   * Fixed service file
