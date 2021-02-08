@@ -12,7 +12,7 @@ export DEB_HOST_GNU_TYPE
 export DEB_BUILD_GNU_TYPE
 
 %:
-	dh $@
+	dh $@ --with systemd
 
 override_dh_auto_build:
 	dh_auto_build -- PREFIX=/usr CRONTAB_GROUP=root
