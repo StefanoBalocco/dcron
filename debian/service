@@ -5,10 +5,9 @@ After=syslog.target
 [Service]
 Type=forking
 EnvironmentFile=/etc/default/dcron
-Environment=PIDFILE=/run/dcron.pid
-ExecStart=/usr/sbin/crond -p $PIDFILE $EXTRA_OPTS
-PIDFile=$PIDFILE
-Restart=always
+ExecStart=/usr/sbin/crond $EXTRA_OPTS
+PIDFile=/run/dcron.pid
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
